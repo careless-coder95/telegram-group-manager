@@ -15,7 +15,7 @@ TOKEN = 'bot_token'
 user_data = {}
 
 # Bot owner details
-OWNER_ID = YOUR_USERID
+OWNER_ID = 8543271441
 OWNER_USERNAME = "@Careless_Owner"
 
 def is_owner(user_id: int) -> bool:
