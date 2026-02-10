@@ -16,7 +16,7 @@ user_data = {}
 
 # Bot owner details
 OWNER_ID = YOUR_USERID
-OWNER_USERNAME = "@realcodedbyom"
+OWNER_USERNAME = "@Careless_Owner"
 
 def is_owner(user_id: int) -> bool:
     """Check if the user is the bot owner."""
@@ -50,7 +50,7 @@ def start(update: Update, context: CallbackContext) -> None:
     """Send a message when the command /start is issued."""
     user = update.effective_user
     welcome_message = (
-        f"🌼 Welcome to DaisyBot, {user.mention_markdown_v2()}\! 🌼\n\n"
+        f"🌼 Welcome to Kelly Manager, {user.mention_markdown_v2()}\! 🌼\n\n"
         f"I'm here to help manage your chat and make it bloom with fun and order\. 🌺\n\n"
         f"🔧 Managed by: {OWNER_USERNAME}\n"
         f"🚀 Version: 1\.0\n"
